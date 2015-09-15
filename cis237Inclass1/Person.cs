@@ -103,6 +103,10 @@ namespace cis237Inclass1
             Console.WriteLine(this.firstNameString + " " + this.lastNameString);
         }
 
+        /// <summary>
+        /// String Override to display Full Name.
+        /// </summary>
+        /// <returns>Returns Full Name String.</returns>
         public override string ToString()
         {
             return this.firstNameString + " " + this.lastNameString;

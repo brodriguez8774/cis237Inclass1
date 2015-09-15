@@ -20,10 +20,10 @@ namespace cis237Inclass1
 
             PersonCollection personCollection = new PersonCollection();
 
-            personCollection.addPerson(person);
-            personCollection.addPerson(new Person("Not", "Declared First", 34));
+            personCollection.AddPerson(person);
+            personCollection.AddPerson(new Person("Not", "Declared First", 34));
 
-            Console.WriteLine(personCollection.getPersonCollectionToString());
+            Console.WriteLine(personCollection.GetPersonCollectionToString());
         }
     }
 }
