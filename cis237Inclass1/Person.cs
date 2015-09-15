@@ -23,11 +23,20 @@ namespace cis237Inclass1
 
         #region Constructor
 
+        /// <summary>
+        /// Base Constructor.
+        /// </summary>
         public Person()
         {
 
         }
         
+        /// <summary>
+        /// Load Person Constructor.
+        /// </summary>
+        /// <param name="firstName">First Name</param>
+        /// <param name="lastName">Last Name</param>
+        /// <param name="age">Current Age</param>
         public Person(string firstName, string lastName, int age)
         {
             this.firstNameString = firstName;
@@ -92,6 +101,11 @@ namespace cis237Inclass1
         public void PrintFullName()
         {
             Console.WriteLine(this.firstNameString + " " + this.lastNameString);
+        }
+
+        public override string ToString()
+        {
+            return this.firstNameString + " " + this.lastNameString;
         }
 
         #endregion
