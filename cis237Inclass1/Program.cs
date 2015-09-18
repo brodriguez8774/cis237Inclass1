@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace cis237Inclass1
 {
+    /// <summary>
+    /// Demonstrates Collection Array Basics.
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Main.
+        /// </summary>
+        /// <param name="args">Command-Line Args</param>
         static void Main(string[] args)
         {
             Person person = new Person("Aa", "Aaa", 20);
